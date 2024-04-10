@@ -3,7 +3,7 @@ const aldeanos = ["Fibrilio", "Narciso", "Vacarena", "Tendo", "Nendo"];
 
 //4.1 - Saca a "Tendo" por consola atacando su posición.
 console.log(aldeanos[3]);
-// console.log(aldeanos[(aldeanos.indexOf("Tendo"))]);
+// Otra manera: console.log(aldeanos[(aldeanos.indexOf("Tendo"))]);
 
 //4.2 - Coloca en el último lugar de este array a "Cervasio".
 aldeanos.push("Cervasio");
@@ -12,8 +12,7 @@ console.log(aldeanos);
 //4.3 - Cambia el primer elemento de este array por "Bambina".
 aldeanos.splice(0,1,"Bambina");
 console.log(aldeanos);
-// aldeanos[0] = "Bambina";
-// console.log(aldeanos);
+// Otra manera: aldeanos[0] = "Bambina";
 
 //4.4 - Dale la vuelta a este array.
 aldeanos.reverse();
