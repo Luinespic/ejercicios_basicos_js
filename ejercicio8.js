@@ -15,7 +15,7 @@ function findLongestWord(stringList) {
       longestWord = word;
     }
   }
-  console.log(longestWord);
+   return longestWord;
 }
 
 // Usando el for of:
@@ -26,7 +26,8 @@ function findLongestWord(stringList) {
 //       longestWord = word;
 //     }
 //   }
-//   console.log(longestWord);
+//   return longestWord;
 // }
 
-findLongestWord(avengers);
+resultado = findLongestWord(avengers);
+console.log (resultado);

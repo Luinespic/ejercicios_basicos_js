@@ -5,7 +5,8 @@ function sumNumbers(numberList) {
   for (const number of numberList) {
     suma = suma + number;
   }
-  console.log (suma);
+  return suma;
 }
 
-sumNumbers(numbers)
+resultado = sumNumbers(numbers);
+console.log(resultado);

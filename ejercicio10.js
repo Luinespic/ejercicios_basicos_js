@@ -4,8 +4,8 @@ function average(numberList) {
   for (const number of numberList) {
     suma = suma + number;
   }
-  promedio = suma / numberList.length;
-  console.log(promedio);
+  return suma / numberList.length;
 }
 
-average(numbers);
+resultado = average(numbers);
+console.log(resultado);

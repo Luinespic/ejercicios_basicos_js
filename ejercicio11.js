@@ -7,8 +7,8 @@ function averageWord(list) {
       suma = suma + number;
     } else suma = suma + number.length;
   }
-  promedio = suma / list.length;
-  console.log(promedio);
+  return suma / list.length;
 }
 
-averageWord(mixedElements);
+resultado = averageWord(mixedElements);
+console.log(resultado);
