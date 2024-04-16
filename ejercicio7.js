@@ -4,5 +4,5 @@ function greaterNumber(numberOne, numberTwo) {
   } else return numberTwo;
 }
 
-resultado = greaterNumber(7, 15);
+const resultado = greaterNumber(7, 15);
 console.log(resultado);

@@ -29,5 +29,5 @@ function findLongestWord(stringList) {
 //   return longestWord;
 // }
 
-resultado = findLongestWord(avengers);
+const resultado = findLongestWord(avengers);
 console.log (resultado);

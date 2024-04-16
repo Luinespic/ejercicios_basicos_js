@@ -8,5 +8,5 @@ function sumNumbers(numberList) {
   return suma;
 }
 
-resultado = sumNumbers(numbers);
+const resultado = sumNumbers(numbers);
 console.log(resultado);

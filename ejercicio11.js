@@ -10,5 +10,5 @@ function averageWord(list) {
   return suma / list.length;
 }
 
-resultado = averageWord(mixedElements);
+const resultado = averageWord(mixedElements);
 console.log(resultado);
