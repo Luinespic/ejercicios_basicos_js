@@ -7,7 +7,7 @@ function averageWord(list) {
       suma = suma + number;
     } else suma = suma + number.length;
   }
-  return suma / list.length;
+  return = suma / list.length;
 }
 
 const resultado = averageWord(mixedElements);
