@@ -17,7 +17,6 @@ const duplicates = [
 //   for (let i = 0; i < list.length; i++) {
 //     const word = list[i];
 //     for (let j = i + 1; j < list.length; j++) {
-//       console.log(list[j]);
 //       if (word === list[j]) {
 //         list.splice(j, 1);
 //       }
